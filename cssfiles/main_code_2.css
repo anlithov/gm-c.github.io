@@ -1726,7 +1726,7 @@ body#profiles_show .b-to-top .slide:before {
     top: 0 !important;
   }
 
-  .p-user_history-index .history-page .history-interval p a {
+  .b-user_history-line a {
     display: block;
   }
 
@@ -2773,13 +2773,13 @@ display: none;
     background: rgba(var(--block-color), 1);
   }
 
-.p-user_history-index .history-page .history-interval p .destroy {
+.b-user_history-line .destroy {
     width: 25px;
     height: 25px;
     margin-top: -3px;
     margin-left: 10px;
 }
-.p-user_history-index .history-page .history-interval p .destroy:before {
+.b-user_history-line .destroy:before {
     width: 100%;
     display: flex;
     justify-content: center;
